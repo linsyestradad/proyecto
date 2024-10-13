@@ -1,0 +1,179 @@
+/* Estilos generales para el contenedor principal */
+.container-Show-Conductor {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilos del encabezado */
+.user-management-header-Show-Conductor {
+    text-align: center; /* Centrar el texto del encabezado */
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.user-management-title-conductor-Show-Conductor {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Contenedor de búsqueda */
+.search-container-Show-Conductor {
+    display: flex;
+    justify-content: center; /* Centrar el botón debajo del título */
+    margin-bottom: 20px; /* Margen inferior para separación */
+}
+
+/* Estilos de botones */
+.btn-Show-Conductor {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 0 5px; /* Espaciado entre botones */
+}
+
+/* Efecto hover para los botones */
+.btn-Show-Conductor:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo del botón de búsqueda */
+.btn-search-Show-Conductor {
+    margin-left: 20px; /* Separación del botón de agregar */
+}
+
+/* Estilo de la tabla */
+.table-Show-Conductor {
+    width: 100%;
+    border-collapse: collapse; /* Colapsar bordes de la tabla */
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra alrededor de la tabla */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Esconde el desbordamiento */
+}
+
+.table-Show-Conductor th {
+    text-align: center;
+    padding: 12px; /* Espaciado dentro de las celdas */
+    background-color: black;
+    color: white;
+}
+
+/* Estilo de celdas del cuerpo de la tabla */
+.table-Show-Conductor td {
+    text-align: center;
+    padding: 12px; /* Espaciado dentro de las celdas */
+    border-right: 1px solid #ddd; /* Línea divisoria vertical entre columnas */
+}
+
+/* Eliminar el borde derecho de la última columna del cuerpo */
+.table-Show-Conductor td:last-child {
+    border-right: none; /* Sin borde para la última columna */
+}
+
+.table-Show-Conductor tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color alternativo para filas pares */
+}
+
+.table-Show-Conductor tbody tr:hover {
+    background-color: #f1f1f1; /* Color al pasar el mouse */
+}
+
+/* Estilos para mensajes de error */
+.text-danger-Show-Conductor {
+    color: red;
+    text-align: center;
+}
+
+/* Estilos de paginación */
+.pagination-Show-Conductor {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.page-item-Show-Conductor {
+    margin: 0 5px;
+}
+
+.page-link-Show-Conductor {
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid #007bff;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Estilo para la página activa */
+.page-item-Show-Conductor.active-Show-Conductor .page-link-Show-Conductor {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Efecto hover para enlaces de paginación */
+.page-link-Show-Conductor:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Estilos para las imágenes de los conductores */
+.image-thumbnail-Show-Conductor {
+    width: 100px;
+    height: auto;
+    cursor: pointer;
+    margin: 0 5px; /* Espaciado entre las imágenes */
+}
+
+/* Estilos del modal */
+.modal-Show-Conductor {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content-Show-Conductor {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.close-Show-Conductor {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-Show-Conductor:hover,
+.close-Show-Conductor:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-image-Show-Conductor {
+    max-width: 90%; /* Limitar el tamaño de la imagen */
+}
+

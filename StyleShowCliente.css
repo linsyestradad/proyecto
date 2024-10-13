@@ -1,0 +1,218 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Container for the entire client management component */
+.container-Show-cliente {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: 'Arial', 'Times New Roman', Times, serif;
+}
+
+/* User management header styling */
+.user-management-header-Show-cliente {
+    margin-bottom: 20px;
+    text-align: center; /* Center the header */
+}
+
+/* Title styling for the client management section */
+.user-management-title-Show-cliente {
+    font-size: 30px;
+    color: #444;
+    margin-top: 80px; /* Adjusted margin */
+}
+
+/* Styling for the search and create button container */
+.search-create-wrapper-Show-cliente {
+    display: flex;
+    justify-content: space-between; /* Space between search and button */
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Container for the search functionality */
+.search-container-Show-cliente {
+    flex: 1; /* Allow it to grow */
+    margin-right: 10px; /* Space between search and button */
+}
+
+/* Button styling for primary button */
+.btn-primary-Show-cliente {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    margin-bottom: -1px;
+    margin-right: 100px;
+}
+
+/* Hover effect for primary button */
+.btn-primary-Show-cliente:hover {
+    background-color: #0056b3;
+}
+
+/* Container for the table */
+.table-container-Show-cliente {
+    width: calc(100% - 50px); /* Resta espacio para margenes/padding */
+    max-width: 1400px; /* O ajusta este valor a tus necesidades */
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    overflow-x: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+}
+
+/* Styling for the client table */
+.table {
+    width: 100%;
+    border-collapse: separate; /* Cambiado a separate */
+    border-spacing: 10px; /* Espacio entre celdas */
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+/* Células de la tabla centradas horizontal y verticalmente */
+.table th, .table td {
+    text-align: center; /* Centra horizontalmente el texto */
+    vertical-align: middle; /* Centra verticalmente el contenido */
+}
+
+/* Header row styling */
+.table thead th {
+    background-color: #000000;
+    color: #fff;
+    padding: 16px;
+    font-weight: bold;
+    border-bottom: 3px solid #000000;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Body row styling */
+.table tbody td {
+    padding: 14px; /* Ajusta el padding para que las celdas ocupen más espacio */
+    border-bottom: 1px solid #eee;
+    color: #333;
+    font-size: 1.05rem;
+    background-color: white; /* Fondo blanco */
+    flex: 1;
+}
+
+.table tbody tr td + td {
+    border-left: 1px solid #ddd; /* Borde a la izquierda de cada celda */
+}
+
+/* Alternating row color for better readability */
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Sort arrows for sortable columns */
+.table th span.sort-arrow {
+    margin-left: 8px;
+}
+
+/* Error message styling */
+.text-danger-Show-cliente {
+    color: red;
+}
+
+/* Pagination center alignment */
+.pagination-center-Show-cliente {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Pagination styling */
+.pagination-Show-cliente {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+/* Active page styling */
+.page-item-Show-cliente.active .page-link-Show-cliente {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+/* Pagination links */
+.page-link-Show-cliente {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #dee2e6;
+    color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for pagination links */
+.page-link-Show-cliente:hover {
+    background-color: #f1f1f1;
+}
+
+/* Pagination item styling */
+.page-item-Show-cliente {
+    margin: 0 5px;
+}
+
+/* Styling for table-hover */
+.table-hover-Show-cliente tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* No clients available message */
+.table-Show-cliente tbody td.no-clients {
+    text-align: center;
+    color: #999;
+    width: 100%; /* Esto ayuda a que el mensaje ocupe el espacio completo */
+}
+
+/* Styling for warning (edit) button */
+.btn-warning-Show-cliente {
+    background-color: #ffc107;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+/* Styling for danger (delete) button */
+.btn-danger-Show-cliente {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* New container for vertical centering */
+.centered-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Altura total de la ventana */
+    padding: 20px; /* Espaciado alrededor */
+}
